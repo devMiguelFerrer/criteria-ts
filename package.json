@@ -1,0 +1,20 @@
+{
+  "name": "criteria-ts",
+  "version": "0.1.3",
+  "description": "criteria/specification javascript",
+  "main": "build/index.js",
+  "scripts": {
+    "clean": "del build",
+    "build": "npm run clean && tsc"
+  },
+  "files": [
+    "build/**/*"
+  ],
+  "author": "Miguel Ferrer",
+  "license": "MIT",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  }
+}
